@@ -1,0 +1,191 @@
+.container {
+  display: flex;
+  transition: all 0.3s;
+}
+.nav {
+  /* height: 100%; */
+  background: -webkit-linear-gradient(
+    180deg,
+    #84f0c7,
+    #00a6f4,
+    #292acf
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(180deg, #84f0c7, #00a6f4, #292acf);
+  flex-grow: 1;
+  min-height: 100vh;
+  max-width: 250px;
+  margin: 0;
+}
+.main {
+  height: 100%;
+  min-height: 100vh;
+  flex-grow: 9;
+}
+/* меню */
+.head {
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+  margin: 0;
+  box-shadow: 0 0 2px 0 #888;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 250px;
+}
+
+.head div {
+  margin-left: 10px;
+}
+.exit_button {
+  margin-right: 50px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 30px;
+  margin: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 40px 40px #f13737 inset, 0 0 0 0 #f13737;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: rgb(255, 255, 255);
+  transition: 0.15s ease-in-out;
+}
+
+.exit_button:hover {
+  box-shadow: 0 0 10px 0 #f137a6 inset, 0 0 10px 4px #f137a6;
+  color: #f137a6;
+}
+
+.head_main {
+  height: 80px;
+  width: auto;
+}
+.head_left {
+  display: flex;
+  align-items: center;
+}
+.sys_name {
+  margin-left: 10px;
+}
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  background: #888;
+}
+.nav nav ul {
+  padding-left: 0;
+}
+.nav nav ul li {
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  transition: 0.3s;
+}
+.nav nav ul li:hover {
+  background: rgb(204, 191, 191);
+}
+.nav nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info {
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  height: auto;
+}
+.fact {
+  margin-right: 10px;
+  margin-left: 5px;
+  width: 33%;
+  min-height: 200px;
+  height: auto;
+  background-color: #2467e6;
+  color: white;
+  border-radius: 7%;
+  padding: 5px;
+  position: relative;
+  text-align: center;
+}
+.bank {
+  margin-right: 10px;
+  position: relative;
+  width: 33%;
+  min-height: 200px;
+  height: auto;
+  background-color: #2467e6;
+  color: white;
+  border-radius: 7%;
+  padding: 5px;
+  text-align: center;
+}
+.uch {
+  margin-right: 5px;
+  position: relative;
+  width: 33%;
+  min-height: 200px;
+  height: auto;
+  background-color: #2467e6;
+  color: white;
+  border-radius: 7%;
+  padding: 5px;
+  text-align: center;
+}
+.main_link {
+  /* position: absolute; */
+  text-align: center;
+  line-height: 150px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  border: 1px solid white;
+  border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.main_link:hover {
+  background-color: rgba(169, 228, 255, 0.575);
+}
+
+.charts_one {
+  display: flex;
+  /* border: 1px solid red; */
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.chartOne {
+  height: auto;
+  min-height: 200px;
+  border: 1px solid rgb(97, 97, 97);
+  width: 50%;
+  max-height: 400px;
+  margin-right: 20px;
+  border-radius: 7%;
+  padding: 10px;
+  margin-left: 5px;
+}
+.chartTwo {
+  height: auto;
+  min-height: 200px;
+  border: 1px solid rgb(97, 97, 97);
+  width: 50%;
+  border-radius: 7%;
+  padding: 10px;
+  margin-right: 5px;
+}
+#myChart,
+#myChart1 {
+  min-height: 200px;
+  max-height: 300px;
+}
